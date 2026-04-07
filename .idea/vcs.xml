@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/assets" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/assets/Catppuccin-Perfect-Icons" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/assets/archcraft-wallpapers" vcs="Git" />
   </component>
 </project>
