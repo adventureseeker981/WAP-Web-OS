@@ -37,7 +37,7 @@ function Scicalc() {
 
             const result = math.evaluate(expression, allVariables);
             if (typeof result === "number" && !isNaN(result)) {
-                setScreenVal(Number(result).toFixed(4));
+                setScreenVal(Number(result).toFixed(2));
             } else {
                 setScreenVal("Error: Invalid expression");
             }
@@ -128,15 +128,16 @@ function Scicalc() {
                             {["1", "2", "3", "4", "5",
                                 "6", "7", "8", "9", "0"].map(
                                 (input) => (
-                                    <button key={input}
+                                    <button className={"Buttons"}key={input}
                                             onClick={() =>
-                                                handleClick(input)}>
+                                                handleClick(input)}
+                                    >
                                         {input}
                                     </button>
                                 )
                             )}
-                            <button onClick={() =>
-                                handleClick(".")}>,</button>
+                            <button className={"Buttons"}onClick={() =>
+                                handleClick(".")}>.</button>
                         </div>
                         <div className="operators">
                             {[
@@ -158,16 +159,16 @@ function Scicalc() {
                                 // Add close parenthesis
                                 ")",
                             ].map((input) => (
-                                <button key={input}
+                                <button className={"Buttons"}key={input}
                                         onClick={() =>
                                             handleClick(input)}>
                                     {input}
                                 </button>
                             ))}
 
-                            <button onClick={() =>
+                            <button className={"Buttons"}onClick={() =>
                                 handleClick("pi")}>Pi</button>
-                            <button onClick={() =>
+                            <button className={"Buttons"}onClick={() =>
                                 handleClick("fact(")}>Factorial</button>
                         </div>
                         <div className="control-buttons">

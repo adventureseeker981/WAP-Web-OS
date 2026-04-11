@@ -84,19 +84,19 @@ h1 {
     align-items: center;
 }
 
-button {
+.Buttons {
     padding: 5px 10px;
     font-size: 16px;
     font-weight: 600;
     background-color: #b8bcb9;
-    color: #000000;
+    color: black;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-button:hover {
+.Buttons:hover {
     background-color: #1fb334;
 }
 
@@ -120,17 +120,18 @@ button:hover {
 
 .variables {
     margin-bottom: 5%;
-    color: #fff;
+    color: black;
     background-color: #272727;
     flex-basis: 10%;
 }
 
 .variables h2 {
-    color: #fff;
+    color: #000;
 }
 
 .fields input {
     background-color: #e8eef5;
     border: 1px solid rgb(231, 228, 228);
     width: 5vw;
+    color: black;
 }
