@@ -7,7 +7,7 @@ export function LoginPage() {
     const [PassWord, SetPassWord] = useState("")
     const [isLoggedIn, setIsLoggedIn] = useState(false)
     function login(){
-        if (UserName === "Vinayak" && PassWord === "Vinayak@9981") {
+        if (PassWord === "1234567890") {
             setIsLoggedIn(true)
         }
     }
@@ -26,7 +26,6 @@ export function LoginPage() {
                 <input type="text" placeholder="Type Username" id={"username"} onChange={(e) => SetUserName(e.target.value)} autoComplete="off"/>
                 <br/><br/><br/>
                 <input type="password" placeholder={"Password"} id={"password"} onChange={(e) => SetPassWord(e.target.value)} /><br/><br/>
-                <p id={"alert"}>{(PassWord.length>0&&PassWord.length<8)?"Password Too Short":""}</p>
                 {login()}
             </div>)}
         </>
