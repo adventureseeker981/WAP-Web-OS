@@ -5,6 +5,10 @@
     transform: translate(-50%, -50%);
 }
 
+#taskbar{
+    z-index: 4;
+}
+
 #userimage{
     display: flex;
     align-items: center;
@@ -76,6 +80,15 @@ button:hover{
     cursor: pointer;
     background-color: white;
     color: black;
+    outline: floralwhite;
+}
+
+#alert{
+    color: red;
+    background-color: floralwhite;
+    border-radius: 5px;
+    text-height: 10px;
+    width: fit-content;
 }
 
 

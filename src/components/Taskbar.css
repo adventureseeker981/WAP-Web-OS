@@ -62,7 +62,7 @@
 #profile{
     position: absolute;
     bottom: 0;
-    left: 65%;
+    left: 60%;
 }
 
 #usern{
@@ -84,4 +84,31 @@
     width: 50px;
     transform: translate(85%, 10%);
     border-radius: 50%;
+}
+
+#AppBar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: darkslategray;
+        opacity: 0.7;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 10vh;
+        border-radius: 100px;
+        width: 40vw;
+}
+
+#AppBarheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.Icons{
+    height: 50px;
+    width: 50px;
 }

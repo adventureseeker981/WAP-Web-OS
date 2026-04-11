@@ -1,0 +1,22 @@
+#gallery-window{
+    position: absolute;
+    z-index: 10;
+    cursor: move;
+}
+
+#gallery-windowheader{
+    position: absolute;
+    z-index: 11;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    cursor: move;
+}
+
+.images{
+    height: 250px;
+    width: 250px;
+    z-index: 12;
+    padding: 8px;
+}
+
